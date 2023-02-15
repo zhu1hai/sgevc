@@ -1,2 +1,2 @@
-# paper-demo2
+# SGEVC
 We will release the code after the paper is received
