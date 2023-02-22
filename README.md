@@ -8,8 +8,7 @@ We also provide the [SGEVC-1 model](https://drive.google.com/file/d/1uzO39mKxiZi
 
 <table style="width:100%">
   <tr>
-    <th>VITS at training</th>
-    <th>VITS at inference</th>
+    <th>Diagram of the proposed approach, showing the trainng procedure (left) and inference procedure(right).</th>
   </tr>
   <tr>
     <td><img src="resources/fig2.pdf" alt="Diagram of the proposed approach, showing the training procedure (left) and inference procedure(right)." height="400"></td>
