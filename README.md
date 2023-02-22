@@ -14,3 +14,13 @@ We also provide the [SGEVC-1 model](https://drive.google.com/file/d/1uzO39mKxiZi
     <td><img src="resources/fig2.png" alt="Diagram of the proposed approach, showing the training procedure (left) and inference procedure(right)."></td>
   </tr>
 </table>
+
+## Pre-requisites
+0. Python >= 3.6
+0. Clone this repository
+0. Install python requirements. Please refer [requirements.txt](requirements.txt)
+    1. You need to install sox first: `apt-get install sox`
+0. Download pretrained SGEVC-1 model[SGEVC-1 model](https://drive.google.com/file/d/1uzO39mKxiZiirobls1u1ogba65fA6n22/view?usp=sharing)
+
+## Inference
+python inference_VC.py
