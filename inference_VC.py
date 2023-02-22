@@ -68,10 +68,12 @@ def main():
     target_wav_path = "./Target/"
     speakers = ['0001','0002','0003','0004','0005','0006','0007','0008','0009','0010']
     emotions={"生气":(351,370),"快乐":(701,720),"伤心":(1051,1070),"惊喜":(1401,1420)} 
-    
-    out = f"./listening_test/VC/supervison_level_1/"
-    if not os.path.exists(out):
-        os.mkdir(out)
+ 
+    if not os.path.exists("./listening_test"):
+        os.mkdir("./listening_test")
+    if not os.path.exists("./listening_test/supervison_level_1"):
+        os.mkdir("./listening_test/supervison_level_1")
+    out = "./listening_test/supervison_level_1/"
     # do emotion conversion
     for speaker in speakers:
         for j in range(20):
