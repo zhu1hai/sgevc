@@ -24,3 +24,9 @@ We also provide the [SGEVC-1 model](https://drive.google.com/file/d/1uzO39mKxiZi
 
 ## Inference
 python inference_VC.py
+
+## Repository
+
+- [The Implementation of StarGAN-EVC](https://github.com/glam-imperial/EmotionalConversionStarGAN)
+- [The Implementation of PPG-VC](https://github.com/liusongxiang/ppg-vc)
+- [The Implementation of VITS](https://github.com/jaywalnut310/vits)
